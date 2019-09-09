@@ -27,12 +27,8 @@ You can find the instruction for installation and use of Pytorch Lighning [here]
 ![Image description](https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/RCNN_Head.jpg)
 
 ## Installations:
-
-1. Install the dependencies:
-
-pip install -r requirements.txt
-
-2. Clone the repository using git clone.
+1. Clone the repository using git clone.
+2. Install the dependencies: pip install -r requirements.txt
 3. Change the datasets if required.
 4. Run the codes to replicate results.
 
