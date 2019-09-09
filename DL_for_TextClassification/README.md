@@ -13,3 +13,4 @@ In this following
 3. Recurrent Neural Networks:
 4. Recurrent Convolutional Neural Networks:
 
+## Installations:
