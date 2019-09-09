@@ -9,7 +9,7 @@ Text classification tasks involves assigning tags/categories to free text based 
 
 Pytorch Lightning is a very lightweight wrapper on PyTorch. It provides a framework to standardize research codes and is recommnded by NeurIPS Conference for an easy reproducibile structure for research works.
 
-You can find the instruction for installation and use of Pytorch Lighning here.
+You can find the instruction for installation and use of Pytorch Lighning [here](https://github.com/williamFalcon/pytorch-lightning).
 
 ### Implemented Architectures:
  In this project we try to build the following elementary Deep Learning architecture for text classification:
@@ -27,4 +27,14 @@ You can find the instruction for installation and use of Pytorch Lighning here.
 ![Image description](https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/RCNN_Head.jpg)
 
 ## Installations:
+
+1. Install the dependencies:
+
+pip install -r requirements.txt
+
+2. Clone the repository.
+3. Change the datasets if required.
+4. Run
+
+
 
