@@ -32,9 +32,9 @@ You can find the instruction for installation and use of Pytorch Lighning [here]
 
 pip install -r requirements.txt
 
-2. Clone the repository.
+2. Clone the repository using git clone.
 3. Change the datasets if required.
-4. Run
+4. Run the codes to replicate results.
 
 
 
