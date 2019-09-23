@@ -3,6 +3,9 @@
 ## Introduction:
 
 
+
+### Semi-Supervised Learning:
+
 ## Objective:
 
 We are given a large class of flowers, 102 to be precise. Build a flower classification model which is discriminative between classes but can correctly classify all flower images belonging to the same class. There are a total of 20549 (train + test) images of flowers. Predict the category of the flowers present in the test folder with good accuracy.
@@ -27,16 +30,6 @@ Some sample images from train data are:
 
 Some sample images from test data are:
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/testSample.png" width="800" height="600">
-
-1.Source and Refer CollectData
-
-Refer EDA
-
-2. Train, Test Size, Categories and Distribution 
-
-3. Train Samples
-
-4. Test Samples
 
 ## Methodology:
 
