@@ -9,9 +9,9 @@ We are given a large class of flowers, 102 to be precise. Build a flower classif
 
 ## Data:
 
-The data for this experiment was collected from Garden Nerd: Flower Recognition Data Science Competition. You can use this link to download data or alternatively you can use Collect and Process Data.ipynb.
+The data for this experiment was collected from [Garden Nerd: Flower Recognition Data Science Competition](https://www.hackerearth.com/problem/machine-learning/flower-recognition/). You can use this [link](https://he-public-data.s3-ap-southeast-1.amazonaws.com/HE_Challenge_data.zip) to download data or alternatively you can use [DataCollectionAndPreprocessing](https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/DataCollectionAndPreprocessing.ipynb) notebook.
 
-Collect and Process Data.ipynb notebook will help you to collect and process data, and make a proper data directory suitable for different methods used in this project.
+[DataCollectionAndPreprocessing](https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/DataCollectionAndPreprocessing.ipynb) notebook will help you to collect and process data, and make a structured data directory suitable for different methods used in this project.
 
 ### Exploratory Data Analysis:
 
