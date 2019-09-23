@@ -14,20 +14,19 @@ You can find the instruction for installation and use of Pytorch Lighning [here]
 ### Implemented Architectures:
  In this project we try to build the following elementary Deep Learning architecture for text classification:
 
-#### 1. Deep Neural Networks:
+### 1. [Deep Neural Networks:](https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/DeepNeuralNetworks.ipynb)
 
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/DNN_head.png" width="600" height="450">
 
-#### 2. Convolutional Neural Networks:
+### 2. [Convolutional Neural Networks:]
+(https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/ConvolutionalNeuralNetworks.ipynb)
 
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/CNN_head.png" width="600" height="450">
 
-#### 3. Recurrent Neural Networks:
-
+### 3. [Recurrent Neural Networks:](https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/RecurrentNeuralNetwork.ipynb)
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/RNN_head.png" width="600" height="450">
 
-#### 4. Recurrent Convolutional Neural Networks:
-![Image description])
+### 4. [Recurrent Convolutional Neural Networks:](https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/RecurrentConvolutionalNeuralNetwork.ipynb)
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/RCNN_Head.jpg" width="600" height="450">
 
 ## Installations:
