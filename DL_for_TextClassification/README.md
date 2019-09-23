@@ -17,7 +17,7 @@ You can find the instruction for installation and use of Pytorch Lighning [here]
 #### 1. Deep Neural Networks:
 ![Image description](https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/DNN_head.png){:height="700px" width="400px"}
 
-<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/DNN_head.png" width="250" height="250">
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/DNN_head.png" width="600" height="450">
 
 #### 2. Convolutional Neural Networks:
 ![Image description](https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/CNN_head.png =250x250)
