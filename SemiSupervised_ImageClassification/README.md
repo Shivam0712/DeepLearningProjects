@@ -23,10 +23,10 @@ The distribution of train data across different categories is:
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/trainDistribution.png" width="600" height="450">
 
 Some sample images from train data are:
-<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/trainSample.png" width="800" height="800">
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/trainSample.png" width="800" height="600">
 
 Some sample images from test data are:
-<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/testSample.png" width="800" height="800">
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/testSample.png" width="800" height="600">
 
 1.Source and Refer CollectData
 
