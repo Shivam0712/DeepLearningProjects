@@ -17,15 +17,17 @@ The data for this experiment was collected from [Garden Nerd: Flower Recognition
 
 The code for exploratory data analysis can be found in [ExploratoryDataAnalysis](https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/ExploratoryDataAnalysis.ipynb) notebook. 
 
-We have 18540 traiining image samples which are classified into 102 different categories of flowers. We have to generate labels for 2009 image samples present in the test data.
+We have 18540 training image samples which are classified into 102 different categories of flowers. We have to generate labels for 2009 image samples present in the test data.
 
 The distribution of train data across different categories is:
-
-
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/trainDistribution.png" width="600" height="450">
 
 Some sample images from train data are:
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/trainSample.png" width="800" height="800">
 
 Some sample images from test data are:
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/testSample.png" width="800" height="800">
+
 1.Source and Refer CollectData
 
 Refer EDA
