@@ -15,9 +15,12 @@ The data for this experiment was collected from [Garden Nerd: Flower Recognition
 
 ### Exploratory Data Analysis:
 
-We have xxx samples in Train Data classified into 102 different categories of flowers, and xxx image samples in test data for which we have to generate the labels.
+The code for exploratory data analysis can be found in [ExploratoryDataAnalysis](https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/ExploratoryDataAnalysis.ipynb) notebook. 
+
+We have 18540 traiining image samples which are classified into 102 different categories of flowers. We have to generate labels for 2009 image samples present in the test data.
 
 The distribution of train data across different categories is:
+
 
 
 Some sample images from train data are:
