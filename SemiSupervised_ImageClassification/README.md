@@ -72,7 +72,9 @@ The following image shows the training/validation loss/accuracy for all the thre
 <img src= "https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/Performance.png"
 width="800" height="500">
 
-Test Results of Different Methods
+**Test Results of Different Methods**
+<img src= "https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/Results.png"
+width="400" height="200">
 
 ## Conclusion
 
