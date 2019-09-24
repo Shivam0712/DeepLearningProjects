@@ -5,7 +5,7 @@ Image classification refers to a process in computer vision that can classify an
 
 **One such semi-supervised technique is [FeatureLearningRotNet](https://github.com/gidariss/FeatureLearningRotNet) where prior to performing the designated image classification task, the network is trained to classify rotated images based on their angle of rotation. This helps the network to learn good low level features which in turn helps it to perform better on the designated image classification task.**
 
-**In this project we aim to compare between, direct transfer learning, transfer learning with augmented datatsets, and transfer learning in addition to semi-supervised learning.** We pick a task in which we are given a large class of flowers, 102 to be precise. We need to uild a flower classification model which is discriminative between classes but can correctly classify all flower images belonging to the same class. There are a total of 20549 (train + test) images of flowers and we need to predict the category of the flowers present in the test folder with good accuracy.
+**In this project we aim to compare between, direct transfer learning, transfer learning with augmented datatsets, and transfer learning in addition to semi-supervised learning.** We pick a task in which we are given a large class of flowers, 102 to be precise. We need to build a flower classification model which is discriminative between classes but can correctly classify all flower images belonging to the same class. There are a total of 20549 (train + test) images of flowers and we need to predict the category of the flowers present in the test folder with good accuracy.
 
 ## Data:
 
@@ -32,14 +32,33 @@ Some sample images from test data are:
 
 There are many pretrained image classification models present in pytorch torchvision package which can be used for the purpose of transfer learning.
 
-In this project we have choosed inception_v3 model because of its low number of paramaters and low Top-1-Error.
-<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/PerformanceVsParam.png" width="800" height="400">
+In this project we have used inception_v3 model because of its low number of paramaters and low Top-1-Error in comparison to other available models.
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/PerformanceVsParam.png" width="600" height="300">
 
-Pretrained Models, Transfer learning, Why inception
+### Direct Transfer Learning
 
-Transfer Learning
+The code for direct tranfer learning can be found in [TransferLearning]() notebook.
 
-Data Augmentation
+1. In this method We use the originally available training dataset with out any augmentation.
+2. We take pretrained inception_v3 model available through TorchVision package.
+3. Remove the already present final fully connected layer of inception_v3 and replace it with our custom layer with 102 output units.
+4. Train the model for 25 Epochs and make it learn to classify the image of flower in 102 given categories.
+
+### Transfer Learning with Data Augmentation
+
+The code for tranfer learning with data augmentation can be found in [TransferLearningDataAugmentation]() notebook.
+
+1. In this method we randomly flip or rotate the images in training datatsets to increase the number of traiing samples from n to 5n.  
+2. Training of inception_v3 is done similar to that of direct transfer learning.
+
+
+### Transfer Learning + Semi-Supervised Learning.
+
+1. In this method we use all the images from training and test, and rotate them at an angle of 180 degrees to build a custom set with two categories Original and Inverted images.
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/SSL_ImageSample.png" width="800" height="600">
+
+2. Next we train the inception_v3 model to distinguish between these two categories of images. While learning to perform this task, the network learns useful information such as 
+
 
 SemiSupervised Learning
 
