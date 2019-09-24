@@ -79,11 +79,18 @@ width="800" height="500">
 
 ### Performance on Test Set:
 
+The following table shows the training/validation loss/accuracy for all the three different methods:
+
 <img src= "https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/Results.png"
 width="400" height="150">
 
 **Stand alone data augmentation is able to improve performance by 1.55% points. Semi-supervised learning is able to improve performance by 2.87% points on top of data augmentation benchmark.**
 
 ## Conclusion
+
+In this project we have discussed about Transfer Learning, Data Augmentation, and Semi-Supervised Learning for image classification. All the three methods are used to boost the capability of network for image clssification tasks. We have evaluated the three methods using the flower species classification challenge, and have shown that the three methods helps in significantly improving the performance of network.
+Data Augmentation is able to perform better than direct transfer learning due to the presence of comparatively large datasets.
+Semi-supervised learning performs even better than data augmentation by learning robust low level features through the arbitary semisupervised task.
+In conclusion, we can say these three techniques can be used to boost performance of image classification models and reduce over reliance on large size of labelled datasets.
 
 
