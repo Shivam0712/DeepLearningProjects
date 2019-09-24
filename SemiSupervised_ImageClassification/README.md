@@ -30,6 +30,11 @@ Some sample images from test data are:
 
 ## Methodology:
 
+There are many pretrained image classification models present in pytorch torchvision package which can be used for the purpose of transfer learning.
+
+In this project we have choosed inception_v3 model because of its low number of paramaters and low Top-1-Error.
+<img src=https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/PerformanceVsParam.png" width="800" height="600">
+
 Pretrained Models, Transfer learning, Why inception
 
 Transfer Learning
