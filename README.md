@@ -8,3 +8,7 @@ Text classification is extensively used in industry today for sentiment analysis
 **Pytorch Lightning** is a very lightweight wrapper on PyTorch. It provides a framework to standardize research codes and is recommnded by NeurIPS Conference.
 
 ![Image description](https://github.com/Shivam0712/DeepLearningProjects/blob/master/DL_for_TextClassification/images/TextClassification.png)
+
+## SemiSupervisedLearning_for_ImageClassification
+
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/SSL_learning.png" width="600" height="700">
