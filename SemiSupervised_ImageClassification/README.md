@@ -1,11 +1,11 @@
 # Semi-Supervised Learning for Image Classification
 
 ## Introduction:
-Image classification refers to a process in computer vision that can classify an image according to its visual content. While detecting an object or classifying an image is a trivial task for humans, robust image classification is still a challenge in computer vision applications. The application of deep learning is rapidly growing in the field of computer vision and is helping in building powerful classification and identification models. The large, structured and labelled image datasets such as that of Imagenet and CIFAR, has made it possible to train models like ResNet or Inception Net which are able to register high perfomances for image classification tasks. **The good thing about these models are the knowledge learnt by them can be transferred and fine tuned to classify images of another Image classification tasks. This is known as transfer learning.** However, even with these transferrable models, in many image classification tasks the labelled datasets is not enough to yield good accuracies. One widely used technique to tackle this problem is by augmenting the data. **In data augmentation we flip, rotate, crop or add noise to exponentially amplify the number of training samples.** Even with the data augmentation, over-reliance on supervised image tasks leaves us with a dependence on large volumes of human-labeled data, a luxury that is not available across all domains. In contrast, it is comparatively easy to accumulate a large dataset of unlabeled images. This has led to the development of **semi-supervised techniques which aims to learn meaningful representation from the unlabeled datasets through unsupervised training.**
+Image classification refers to a process in computer vision that can classify an image according to its visual content. While detecting an object or classifying an image is a trivial task for humans, robust image classification is still a challenge in computer vision applications. The application of deep learning is rapidly growing in the field of computer vision and is helping in building robust classification and identification models. The large, structured, and labeled image datasets like Imagenet and CIFAR, has made it possible to develop networks such as ResNet or Inception Net which can register high performances for image classification tasks. **The good thing about these models are the knowledge learned by them can be transferred and fine-tuned to classify images of another Image classification tasks. This is known as transfer learning.** However, even with these transferrable models, in many image classification tasks, the labeled datasets is not enough to yield good accuracies. One widely used technique to tackle this problem is by augmenting the data. **In data augmentation we flip, rotate, crop or add noise to amplify the number of training samples exponentially. ** Even with the data augmentation, over-reliance on supervised image tasks leaves us with a dependence on large volumes of human-labeled data, a luxury that is not available across all domains. In contrast, it is comparatively easy to accumulate a large dataset of unlabeled images. This has led to the development of **semi-supervised techniques which aims to learn meaningful representation from the unlabeled datasets through unsupervised training.**
 
-**One such semi-supervised technique is [FeatureLearningRotNet](https://github.com/gidariss/FeatureLearningRotNet) where prior to performing the designated image classification task, the network is trained to classify rotated images based on their angle of rotation. This helps the network to learn good low level features which in turn helps it to perform better on the designated image classification task.**
+**One such semi-supervised technique is [FeatureLearningRotNet](https://github.com/gidariss/FeatureLearningRotNet) where prior to performing the designated image classification task, the network is trained to classify rotated images based on their angle of rotation. This helps the network to learn useful low-level features which in turn helps it to perform better on the designated image classification task.**
 
-**In this project we aim to compare between, direct transfer learning, transfer learning with augmented datatsets, and transfer learning in addition to semi-supervised learning.** We pick a task in which we are given a large class of flowers, 102 to be precise. We need to build a flower classification model which is discriminative between classes but can correctly classify all flower images belonging to the same class. There are a total of 20549 (train + test) images of flowers and we need to predict the category of the flowers present in the test folder with good accuracy.
+**In this project we aim to compare between, direct transfer learning, transfer learning with augmented datasets, and transfer learning in addition to semi-supervised learning.** We pick a task in which we are given a large class of flowers, 102 to be precise. We need to build a flower classification model which is discriminative between classes but can correctly classify all flower images belonging to the same class. There are a total of 20549 (train + test) images of flowers, and we need to predict the category of the flowers present in the test folder with reasonable accuracy.
 
 ## Data:
 
@@ -68,14 +68,20 @@ The code for tranfer learning with Semi-Supervised Learning can be found in [SSL
 
 ## Results
 
+### Training and Validation Curves:
+
 The following image shows the training/validation loss/accuracy for all the three different methods:
+
 <img src= "https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/Performance.png"
 width="800" height="500">
+**The training and validation loss and accuracy for Semi-Supervised learning is significantly smooth in comparison to the other methods. This smoothness is due to the robust low level features learned by the network during the semi-supervised task.**
 
-**Test Results of Different Methods**
+### Performance on Test Set:
 
 <img src= "https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/Results.png"
 width="400" height="150">
+
+Stand alone data augmentation is able to improve performance by 1.55% points. Semi-supervised learning is able to improve performance by 2.87% points on top of data augmentation benchmark.
 
 ## Conclusion
 
