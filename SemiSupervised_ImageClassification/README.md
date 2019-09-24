@@ -62,7 +62,7 @@ The code for tranfer learning with Semi-Supervised Learning can be found in [SSL
 
 2. Next we train the inception_v3 model to distinguish between these two categories of images. While learning to perform this task, the network learns useful information related to plants and flowers such as flowers grow towards sky, stamen is on top of petals etc.
 
-3. After this we retrain this trained model on the  the augmented training dataset to output original 102 categories.
+3. After this we fine tune this trained model on the  the augmented training dataset to output original 102 categories.
 
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/SSL_learning.png" width="600" height="700">
 
