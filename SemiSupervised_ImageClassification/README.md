@@ -74,6 +74,7 @@ The following image shows the training/validation loss/accuracy for all the thre
 
 <img src= "https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/Performance.png"
 width="800" height="500">
+
 **The training and validation loss and accuracy for Semi-Supervised learning is significantly smooth in comparison to the other methods. This smoothness is due to the robust low level features learned by the network during the semi-supervised task.**
 
 ### Performance on Test Set:
@@ -81,7 +82,7 @@ width="800" height="500">
 <img src= "https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/Results.png"
 width="400" height="150">
 
-Stand alone data augmentation is able to improve performance by 1.55% points. Semi-supervised learning is able to improve performance by 2.87% points on top of data augmentation benchmark.
+**Stand alone data augmentation is able to improve performance by 1.55% points. Semi-supervised learning is able to improve performance by 2.87% points on top of data augmentation benchmark.**
 
 ## Conclusion
 
