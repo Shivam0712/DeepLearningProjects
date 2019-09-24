@@ -53,7 +53,7 @@ The code for tranfer learning with data augmentation can be found in [TransferLe
 2. Training of inception_v3 is done similar to that of direct transfer learning.
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/tl_aug_transfer.png" width="600" height="300">
 
-### Transfer Learning + Semi-Supervised Learning.
+### Transfer Learning + Semi-Supervised Learning
 
 The code for tranfer learning with Semi-Supervised Learning can be found in [SSL]() (Semi-Supervised Learning Task) [Fine Tuning]() (Fine Tuning on Original image Classification task) notebooks.
 
