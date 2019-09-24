@@ -70,7 +70,7 @@ The code for tranfer learning with Semi-Supervised Learning can be found in [SSL
 
 The following image shows the training/validation loss/accuracy for all the three different methods:
 <img src= "https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/Performance.png"
-width="600" height="700">
+width="600" height="500">
 
 Test Results of Different Methods
 
