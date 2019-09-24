@@ -55,6 +55,8 @@ The code for tranfer learning with data augmentation can be found in [TransferLe
 
 ### Transfer Learning + Semi-Supervised Learning.
 
+The code for tranfer learning with Semi-Supervised Learning can be found in [SSL]() (Semi-Supervised Learning Task) [Fine Tuning]() (Fine Tuning on Original image Classification task) notebooks.
+
 1. In this method we use all the images from training and test, and rotate them at an angle of 180 degrees to build a custom set with two categories Original and Inverted images.
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/SSL_ImageSample.png" width="600" height="450">
 
