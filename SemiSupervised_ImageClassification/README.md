@@ -43,6 +43,7 @@ The code for direct tranfer learning can be found in [TransferLearning]() notebo
 2. We take pretrained inception_v3 model available through TorchVision package.
 3. Remove the already present final fully connected layer of inception_v3 and replace it with our custom layer with 102 output units.
 4. Train the model for 25 Epochs and make it learn to classify the image of flower in 102 given categories.
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/tl_model.png" width="600" height="300">
 
 ### Transfer Learning with Data Augmentation
 
@@ -50,17 +51,17 @@ The code for tranfer learning with data augmentation can be found in [TransferLe
 
 1. In this method we randomly flip or rotate the images in training datatsets to increase the number of traiing samples from n to 5n.  
 2. Training of inception_v3 is done similar to that of direct transfer learning.
-
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/tl_aug_transfer.png" width="600" height="300">
 
 ### Transfer Learning + Semi-Supervised Learning.
 
 1. In this method we use all the images from training and test, and rotate them at an angle of 180 degrees to build a custom set with two categories Original and Inverted images.
-<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/SSL_ImageSample.png" width="800" height="600">
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/SSL_ImageSample.png" width="600" height="450">
 
-2. Next we train the inception_v3 model to distinguish between these two categories of images. While learning to perform this task, the network learns useful information such as 
+2. Next we train the inception_v3 model to distinguish between these two categories of images. While learning to perform this task, the network learns useful information related to plants and flowers such as flowers grow towards sky, stamen is on top of petals etc.
+<img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/SSL_learning.png" width="600" height="700">
 
-
-SemiSupervised Learning
+3. After this we retrain this trained model on the  the augmented training dataset to output original 102 categories.
 
 ## Results
 
