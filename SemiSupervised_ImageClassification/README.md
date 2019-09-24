@@ -37,7 +37,7 @@ In this project we have used inception_v3 model because of its low number of par
 
 ### Direct Transfer Learning
 
-The code for direct tranfer learning can be found in [TransferLearning]() notebook.
+The code for direct tranfer learning can be found in [DirectTransferLearning](https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/DirectTransferLearning.ipynb) notebook.
 
 1. In this method We use the originally available training dataset with out any augmentation.
 2. We take pretrained inception_v3 model available through TorchVision package.
@@ -47,7 +47,7 @@ The code for direct tranfer learning can be found in [TransferLearning]() notebo
 
 ### Transfer Learning with Data Augmentation
 
-The code for tranfer learning with data augmentation can be found in [TransferLearningDataAugmentation]() notebook.
+The code for tranfer learning with data augmentation can be found in [TransferLearningAugmentedDataset](https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/TransferLearningAugmentedDataset.ipynb) notebook.
 
 1. In this method we randomly flip or rotate the images in training datatsets to increase the number of traiing samples from n to 5n.  
 2. Training of inception_v3 is done similar to that of direct transfer learning.
@@ -55,7 +55,7 @@ The code for tranfer learning with data augmentation can be found in [TransferLe
 
 ### Transfer Learning + Semi-Supervised Learning
 
-The code for tranfer learning with Semi-Supervised Learning can be found in [SSL]() (Semi-Supervised Learning Task) [Fine Tuning]() (Fine Tuning on Original image Classification task) notebooks.
+The code for tranfer learning with Semi-Supervised Learning can be found in [SemiSupervisedLearning](https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/SemiSupervisedLearning.ipynb) notebook.
 
 1. In this method we use all the images from training and test, and rotate them at an angle of 180 degrees to build a custom set with two categories Original and Inverted images.
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/SSL_ImageSample.png" width="600" height="450">
