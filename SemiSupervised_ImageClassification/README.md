@@ -93,4 +93,9 @@ Data Augmentation is able to perform better than direct transfer learning due to
 Semi-supervised learning performs even better than data augmentation by learning robust low level features through the arbitary semisupervised task.
 In conclusion, we can say these three techniques can be used to boost performance of image classification models and reduce over reliance on large size of labelled datasets.
 
+## Installation:
 
+1. Clone the repository.
+2. Install the requirements: pip install -r requirements.txt
+3. Run [DataCollectionAndPreprocessing](https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/DataCollectionAndPreprocessing.ipynb) notebook.
+4. Choose the method of your choice and run the respective notebook.
