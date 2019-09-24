@@ -1,6 +1,19 @@
 # Semi-Supervised Learning for Image Classification
 
 ## Introduction:
+Image classification refers to a process in computer vision that can classify an image according to its visual content. For example, an image classification algorithm can be used to classify an image based on whether it has humans in it or not. While detecting an object or classifying an image is a trivial task for humans, robust image classification is still a challenge in computer vision applications.
+
+The application of deep learning is rapidly growing in the field of computer vision and is helping in building powerful classification and identification models.
+
+The large, structured and labelled image datasets such as that of Imagenet and CIFAR,had made it possible to train models like ResNet or Inception Net which are able to give high accuracies for image classification tasks.
+
+The good thing about these models are the knowledge learnt on these datasets can be transferred and fine tuned to classify images of another Image classification tasks. This is known as transfer learning.
+
+However, even with these transferrable models, in many image classification tasks the labelled datasets is not enough to yield good accuracies. One widely used technique to tackle this problem is by augmenting the data. In data augmentation we flip, rotate, crop or add noise to exponentially amplify the number of training samples.
+
+Even with the data augmentation over-reliance on supervised image tasks leaves us with a dependence on large volumes of human-labeled data, a luxury that is not available across all domains. In contrast, it is comparatively easy to accumulate a large dataset of unlabeled images. This has led to the development of semi-supervised techniques which helps to learn meaningful representation from the unlabeled datasets through unsupervised training.
+
+One such semi-supervised technique is [FeatureLearningRotNet](https://github.com/gidariss/FeatureLearningRotNet) where prior to performing the designated image classification task, the network is trained to classify rotated images based on their angle of rotation. This helps the network to learn good low level features which in turn helps it perform better on the designated image classification task.
 
 
 
