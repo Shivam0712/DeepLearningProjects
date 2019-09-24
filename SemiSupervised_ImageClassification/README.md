@@ -60,7 +60,7 @@ The code for tranfer learning with Semi-Supervised Learning can be found in [SSL
 1. In this method we use all the images from training and test, and rotate them at an angle of 180 degrees to build a custom set with two categories Original and Inverted images.
 <img src="https://github.com/Shivam0712/DeepLearningProjects/blob/master/SemiSupervised_ImageClassification/Plots/SSL_ImageSample.png" width="600" height="450">
 
-2. Next we train the inception_v3 model to distinguish between these two categories of images. While learning to perform this task, the network learns useful information related to plants and flowers such as flowers grow towards sky, stamen is on top of petals etc.
+2. Next we train the inception_v3 model to distinguish between these two categories of images. While learning to perform this task, the network learns useful information related to plants and flowers such as flowers grow towards sky, stamen is on top of petals etc. This helps the network to learn robust low level features about the images.
 
 3. After this we fine tune this trained model on the  the augmented training dataset to output original 102 categories.
 
